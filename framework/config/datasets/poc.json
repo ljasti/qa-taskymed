@@ -1,0 +1,22 @@
+{
+  "environment": "poc",
+  "datasetId": "poc-essential-synthetic",
+  "available": false,
+  "tenantId": "<approved-poc-tenant-id>",
+  "facilityId": "<approved-poc-facility-id>",
+  "syntheticOnly": true,
+  "licenseFixture": "<approved-poc-essential-license-fixture>",
+  "licenseProfile": "essential",
+  "workflows": ["ESS-REC-REG", "ESS-PHY-QUEUE"],
+  "expectedResults": [
+    "Use only approved synthetic records.",
+    "Keep each created record owned by the test run.",
+    "Do not treat unavailable data as a passing application result."
+  ],
+  "creationStrategy": "Approved API factory where available; UI setup only when the workflow itself is under test.",
+  "cleanup": {
+    "owner": "test-run and test-case ID",
+    "policy": "dry-run until an approved owned-resource deletion contract exists",
+    "restrictions": "Never delete real, shared, unknown or production records."
+  }
+}

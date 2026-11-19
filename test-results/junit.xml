@@ -1,0 +1,290 @@
+<testsuites id="" name="" tests="48" failures="0" skipped="48" errors="0" time="0.5099710000000005">
+<testsuite name="accessibility/shell.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-A11Y-001: login shell exposes a meaningful document @accessibility" classname="accessibility/shell.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="api/health-contract.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-API-001: configured API responds to a read-only health probe @api @smoke" classname="api/health-contract.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="licensing/seats/seat-limit.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression" classname="licensing/seats/seat-limit.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="reliability/network-recovery.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance" classname="reliability/network-recovery.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke/framework-config.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile" classname="smoke/framework-config.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/physician/patient-queue/queue-visibility.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression" classname="workflows/physician/patient-queue/queue-visibility.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-positive.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression" classname="workflows/reception/patient-registration/registration-positive.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-validation.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S002-TC001: required registration fields @functional @regression" classname="workflows/reception/patient-registration/registration-validation.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="accessibility/shell.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-A11Y-001: login shell exposes a meaningful document @accessibility" classname="accessibility/shell.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="api/health-contract.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-API-001: configured API responds to a read-only health probe @api @smoke" classname="api/health-contract.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="licensing/seats/seat-limit.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression" classname="licensing/seats/seat-limit.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="reliability/network-recovery.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance" classname="reliability/network-recovery.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke/framework-config.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile" classname="smoke/framework-config.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/physician/patient-queue/queue-visibility.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression" classname="workflows/physician/patient-queue/queue-visibility.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-positive.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression" classname="workflows/reception/patient-registration/registration-positive.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-validation.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="firefox" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S002-TC001: required registration fields @functional @regression" classname="workflows/reception/patient-registration/registration-validation.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="accessibility/shell.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-A11Y-001: login shell exposes a meaningful document @accessibility" classname="accessibility/shell.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="api/health-contract.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-API-001: configured API responds to a read-only health probe @api @smoke" classname="api/health-contract.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="licensing/seats/seat-limit.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression" classname="licensing/seats/seat-limit.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="reliability/network-recovery.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance" classname="reliability/network-recovery.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke/framework-config.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile" classname="smoke/framework-config.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/physician/patient-queue/queue-visibility.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression" classname="workflows/physician/patient-queue/queue-visibility.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-positive.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression" classname="workflows/reception/patient-registration/registration-positive.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-validation.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="webkit" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S002-TC001: required registration fields @functional @regression" classname="workflows/reception/patient-registration/registration-validation.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="accessibility/shell.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-A11Y-001: login shell exposes a meaningful document @accessibility" classname="accessibility/shell.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="api/health-contract.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-API-001: configured API responds to a read-only health probe @api @smoke" classname="api/health-contract.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="licensing/seats/seat-limit.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression" classname="licensing/seats/seat-limit.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="reliability/network-recovery.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance" classname="reliability/network-recovery.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke/framework-config.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile" classname="smoke/framework-config.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/physician/patient-queue/queue-visibility.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression" classname="workflows/physician/patient-queue/queue-visibility.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-positive.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression" classname="workflows/reception/patient-registration/registration-positive.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-validation.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-chrome" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S002-TC001: required registration fields @functional @regression" classname="workflows/reception/patient-registration/registration-validation.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="accessibility/shell.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-A11Y-001: login shell exposes a meaningful document @accessibility" classname="accessibility/shell.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="api/health-contract.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-API-001: configured API responds to a read-only health probe @api @smoke" classname="api/health-contract.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="licensing/seats/seat-limit.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression" classname="licensing/seats/seat-limit.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="reliability/network-recovery.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance" classname="reliability/network-recovery.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke/framework-config.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile" classname="smoke/framework-config.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/physician/patient-queue/queue-visibility.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression" classname="workflows/physician/patient-queue/queue-visibility.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-positive.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression" classname="workflows/reception/patient-registration/registration-positive.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-validation.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="mobile-safari" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S002-TC001: required registration fields @functional @regression" classname="workflows/reception/patient-registration/registration-validation.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="accessibility/shell.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="tablet" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-A11Y-001: login shell exposes a meaningful document @accessibility" classname="accessibility/shell.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="api/health-contract.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="tablet" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-API-001: configured API responds to a read-only health probe @api @smoke" classname="api/health-contract.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="licensing/seats/seat-limit.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="tablet" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression" classname="licensing/seats/seat-limit.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="reliability/network-recovery.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="tablet" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance" classname="reliability/network-recovery.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke/framework-config.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="tablet" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile" classname="smoke/framework-config.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/physician/patient-queue/queue-visibility.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="tablet" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression" classname="workflows/physician/patient-queue/queue-visibility.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-positive.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="tablet" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression" classname="workflows/reception/patient-registration/registration-positive.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="workflows/reception/patient-registration/registration-validation.spec.ts" timestamp="2026-11-14T12:07:54.647Z" hostname="tablet" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="ESS-REC-REG-S002-TC001: required registration fields @functional @regression" classname="workflows/reception/patient-registration/registration-validation.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

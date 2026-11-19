@@ -1,0 +1,437 @@
+{
+  "config": {
+    "argv": [
+      "/home/lakshmikiran/.nvm/versions/node/v24.16.0/bin/node",
+      "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/node_modules/.bin/playwright",
+      "test",
+      "--grep",
+      "@response-time"
+    ],
+    "configFile": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/playwright.config.ts",
+    "rootDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "qaEnvironment": "local",
+      "tenantId": "<approved-local-tenant-id>",
+      "datasetId": "local-essential-synthetic",
+      "licenseProfile": "essential",
+      "reportNamespace": "local/run",
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results/local/run/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "<approved-local-tenant-id>",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run",
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results/local/run/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "<approved-local-tenant-id>",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run",
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results/local/run/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "<approved-local-tenant-id>",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run",
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results/local/run/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "<approved-local-tenant-id>",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run",
+          "actualWorkers": 1
+        },
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results/local/run/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "<approved-local-tenant-id>",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run",
+          "actualWorkers": 1
+        },
+        "id": "mobile-safari",
+        "name": "mobile-safari",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results/local/run/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "<approved-local-tenant-id>",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run",
+          "actualWorkers": 1
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "test-results/local/run/html"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/local/run/junit.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/local/run/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.61.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "response-time.spec.ts",
+      "file": "response-time.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-PERF-001: summarizes controlled response-time samples @performance @response-time",
+          "ok": true,
+          "tags": [
+            "performance",
+            "response-time"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 45,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-14T16:25:34.608Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabdecaec523fdfe65cb-620e0cf4e3b76925ef1f",
+          "file": "response-time.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "ESS-PERF-001: summarizes controlled response-time samples @performance @response-time",
+          "ok": true,
+          "tags": [
+            "performance",
+            "response-time"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 62,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-14T16:25:40.234Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabdecaec523fdfe65cb-2824087322e08ea80f81",
+          "file": "response-time.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "ESS-PERF-001: summarizes controlled response-time samples @performance @response-time",
+          "ok": true,
+          "tags": [
+            "performance",
+            "response-time"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 82,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-14T16:25:46.394Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabdecaec523fdfe65cb-e7d834de221c5f39b684",
+          "file": "response-time.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "ESS-PERF-001: summarizes controlled response-time samples @performance @response-time",
+          "ok": true,
+          "tags": [
+            "performance",
+            "response-time"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 62,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-14T16:25:51.773Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabdecaec523fdfe65cb-57e678a69a18df226ba4",
+          "file": "response-time.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "ESS-PERF-001: summarizes controlled response-time samples @performance @response-time",
+          "ok": true,
+          "tags": [
+            "performance",
+            "response-time"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 53,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-14T16:25:58.410Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabdecaec523fdfe65cb-b97cfdea2ea5ad7eddf1",
+          "file": "response-time.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "ESS-PERF-001: summarizes controlled response-time samples @performance @response-time",
+          "ok": true,
+          "tags": [
+            "performance",
+            "response-time"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 73,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-14T16:26:04.081Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabdecaec523fdfe65cb-ff90293e4898f27170c5",
+          "file": "response-time.spec.ts",
+          "line": 14,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-14T16:25:29.011Z",
+    "duration": 35598.909,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

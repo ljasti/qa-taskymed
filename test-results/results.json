@@ -1,0 +1,1378 @@
+{
+  "config": {
+    "argv": [
+      "/home/lakshmikiran/.nvm/versions/node/v24.16.0/bin/node",
+      "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/node_modules/playwright/cli.js",
+      "test",
+      "--list"
+    ],
+    "configFile": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/playwright.config.ts",
+    "rootDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "qaEnvironment": "local",
+      "tenantId": "ten_local",
+      "datasetId": "local-essential-synthetic",
+      "licenseProfile": "essential",
+      "reportNamespace": "local/run"
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "ten_local",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run"
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "ten_local",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run"
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "ten_local",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run"
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "ten_local",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run"
+        },
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "ten_local",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run"
+        },
+        "id": "mobile-safari",
+        "name": "mobile-safari",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "qaEnvironment": "local",
+          "tenantId": "ten_local",
+          "datasetId": "local-essential-synthetic",
+          "licenseProfile": "essential",
+          "reportNamespace": "local/run"
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "/mnt/d/workdir/health-care/TASKYMED/QA-Practice/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.61.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "accessibility/shell.spec.ts",
+      "file": "accessibility/shell.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-A11Y-001: login shell exposes a meaningful document @accessibility",
+          "ok": true,
+          "tags": [
+            "accessibility"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0d2444b016ee2f5e666-0966f0bcdd2cdea9f75c",
+          "file": "accessibility/shell.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-A11Y-001: login shell exposes a meaningful document @accessibility",
+          "ok": true,
+          "tags": [
+            "accessibility"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0d2444b016ee2f5e666-59ee7d13704967a060f3",
+          "file": "accessibility/shell.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-A11Y-001: login shell exposes a meaningful document @accessibility",
+          "ok": true,
+          "tags": [
+            "accessibility"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0d2444b016ee2f5e666-20dba45abcff0bebdb89",
+          "file": "accessibility/shell.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-A11Y-001: login shell exposes a meaningful document @accessibility",
+          "ok": true,
+          "tags": [
+            "accessibility"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0d2444b016ee2f5e666-f382f1a107986589ba29",
+          "file": "accessibility/shell.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-A11Y-001: login shell exposes a meaningful document @accessibility",
+          "ok": true,
+          "tags": [
+            "accessibility"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0d2444b016ee2f5e666-5de10bd877d03b63f766",
+          "file": "accessibility/shell.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-A11Y-001: login shell exposes a meaningful document @accessibility",
+          "ok": true,
+          "tags": [
+            "accessibility"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0d2444b016ee2f5e666-ea8422e8bbc3dcfc0805",
+          "file": "accessibility/shell.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "api/health-contract.spec.ts",
+      "file": "api/health-contract.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-API-001: configured API responds to a read-only health probe @api @smoke",
+          "ok": true,
+          "tags": [
+            "api",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0cfcfb315f12ca9b27bf-5c7e9c9e40896e01e14a",
+          "file": "api/health-contract.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-API-001: configured API responds to a read-only health probe @api @smoke",
+          "ok": true,
+          "tags": [
+            "api",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0cfcfb315f12ca9b27bf-019f5e4fc16617dabe97",
+          "file": "api/health-contract.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-API-001: configured API responds to a read-only health probe @api @smoke",
+          "ok": true,
+          "tags": [
+            "api",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0cfcfb315f12ca9b27bf-525c691897f6e79dd32b",
+          "file": "api/health-contract.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-API-001: configured API responds to a read-only health probe @api @smoke",
+          "ok": true,
+          "tags": [
+            "api",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0cfcfb315f12ca9b27bf-c04d5480e6eca32711d4",
+          "file": "api/health-contract.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-API-001: configured API responds to a read-only health probe @api @smoke",
+          "ok": true,
+          "tags": [
+            "api",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0cfcfb315f12ca9b27bf-0d60a0f2c7ecf490ef2b",
+          "file": "api/health-contract.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-API-001: configured API responds to a read-only health probe @api @smoke",
+          "ok": true,
+          "tags": [
+            "api",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0cfcfb315f12ca9b27bf-94f5e52a32eca1d71249",
+          "file": "api/health-contract.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "licensing/seats/seat-limit.spec.ts",
+      "file": "licensing/seats/seat-limit.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression",
+          "ok": true,
+          "tags": [
+            "licensing",
+            "security",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f35bb26122f95f798ffa-df4098e4ce5889b0252f",
+          "file": "licensing/seats/seat-limit.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression",
+          "ok": true,
+          "tags": [
+            "licensing",
+            "security",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f35bb26122f95f798ffa-278767fde00148e1f6da",
+          "file": "licensing/seats/seat-limit.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression",
+          "ok": true,
+          "tags": [
+            "licensing",
+            "security",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f35bb26122f95f798ffa-a00e83df13f3ae147999",
+          "file": "licensing/seats/seat-limit.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression",
+          "ok": true,
+          "tags": [
+            "licensing",
+            "security",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f35bb26122f95f798ffa-679bea151c66d43ec43f",
+          "file": "licensing/seats/seat-limit.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression",
+          "ok": true,
+          "tags": [
+            "licensing",
+            "security",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f35bb26122f95f798ffa-078cfe16ac74150e5757",
+          "file": "licensing/seats/seat-limit.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-LIC-SEAT-S001-TC001: eleventh Essential seat is rejected @licensing @security @regression",
+          "ok": true,
+          "tags": [
+            "licensing",
+            "security",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f35bb26122f95f798ffa-998ada1da4ec1f758104",
+          "file": "licensing/seats/seat-limit.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "reliability/network-recovery.spec.ts",
+      "file": "reliability/network-recovery.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance",
+          "ok": true,
+          "tags": [
+            "reliability",
+            "performance"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe46838d681d2d523aa7-fda99f9199337e0ac114",
+          "file": "reliability/network-recovery.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance",
+          "ok": true,
+          "tags": [
+            "reliability",
+            "performance"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe46838d681d2d523aa7-0a0d9f589e911060b411",
+          "file": "reliability/network-recovery.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance",
+          "ok": true,
+          "tags": [
+            "reliability",
+            "performance"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe46838d681d2d523aa7-ba1652168dd53c7c4810",
+          "file": "reliability/network-recovery.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance",
+          "ok": true,
+          "tags": [
+            "reliability",
+            "performance"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe46838d681d2d523aa7-ade7c8ce09f31aa6393a",
+          "file": "reliability/network-recovery.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance",
+          "ok": true,
+          "tags": [
+            "reliability",
+            "performance"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe46838d681d2d523aa7-1bb617ac3dcbd09e5c4d",
+          "file": "reliability/network-recovery.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REL-001: frontend records a bounded navigation under a simulated API failure @reliability @performance",
+          "ok": true,
+          "tags": [
+            "reliability",
+            "performance"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe46838d681d2d523aa7-ee483d56190da70378a0",
+          "file": "reliability/network-recovery.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "smoke/framework-config.spec.ts",
+      "file": "smoke/framework-config.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c1e7a489def6463b49e4-b563f7f819ad9a80c097",
+          "file": "smoke/framework-config.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c1e7a489def6463b49e4-e6b8f1e8d793f71519ee",
+          "file": "smoke/framework-config.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c1e7a489def6463b49e4-b5b68b86bc9f4411ace6",
+          "file": "smoke/framework-config.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c1e7a489def6463b49e4-6aa685ba3f4ec8885e6f",
+          "file": "smoke/framework-config.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c1e7a489def6463b49e4-0630b8952e2fc1ea9f57",
+          "file": "smoke/framework-config.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-QA-FOUNDATION-001: selected environment is explicit and safe @smoke @mobile",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "mobile"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c1e7a489def6463b49e4-ca0739f48bda16fdc65b",
+          "file": "smoke/framework-config.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workflows/physician/patient-queue/queue-visibility.spec.ts",
+      "file": "workflows/physician/patient-queue/queue-visibility.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "e2e",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ede2f95e02a40d4f18f0-563c19b36d80eb8c6c98",
+          "file": "workflows/physician/patient-queue/queue-visibility.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "e2e",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ede2f95e02a40d4f18f0-d68f5c4748c02711f70e",
+          "file": "workflows/physician/patient-queue/queue-visibility.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "e2e",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ede2f95e02a40d4f18f0-e3608fe914412d55ea64",
+          "file": "workflows/physician/patient-queue/queue-visibility.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "e2e",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ede2f95e02a40d4f18f0-5d356f67332101e5d74e",
+          "file": "workflows/physician/patient-queue/queue-visibility.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "e2e",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ede2f95e02a40d4f18f0-f7afa79b53dcb3274af7",
+          "file": "workflows/physician/patient-queue/queue-visibility.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "ESS-PHY-QUEUE-S001-TC001: authorized physician queue @smoke @e2e @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "e2e",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ede2f95e02a40d4f18f0-f1305ac3989a633db109",
+          "file": "workflows/physician/patient-queue/queue-visibility.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workflows/reception/patient-registration/registration-positive.spec.ts",
+      "file": "workflows/reception/patient-registration/registration-positive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f6f28fbaf14ef6644014-390f9a822d3e9de4fd81",
+          "file": "workflows/reception/patient-registration/registration-positive.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f6f28fbaf14ef6644014-e75805cdc8917aea0f7b",
+          "file": "workflows/reception/patient-registration/registration-positive.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f6f28fbaf14ef6644014-1cfd1f81f602ac36f3be",
+          "file": "workflows/reception/patient-registration/registration-positive.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f6f28fbaf14ef6644014-94c0f50e827d8f2971c0",
+          "file": "workflows/reception/patient-registration/registration-positive.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f6f28fbaf14ef6644014-03d0d1c5ae126a41e857",
+          "file": "workflows/reception/patient-registration/registration-positive.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S001-TC001: valid patient registration @smoke @functional @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f6f28fbaf14ef6644014-fd9dd230fafb6f3b5176",
+          "file": "workflows/reception/patient-registration/registration-positive.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workflows/reception/patient-registration/registration-validation.spec.ts",
+      "file": "workflows/reception/patient-registration/registration-validation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ESS-REC-REG-S002-TC001: required registration fields @functional @regression",
+          "ok": true,
+          "tags": [
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0f051018a8f64e446bc9-26647e02b3bd8e0c1d94",
+          "file": "workflows/reception/patient-registration/registration-validation.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S002-TC001: required registration fields @functional @regression",
+          "ok": true,
+          "tags": [
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0f051018a8f64e446bc9-767aefed34661dcf7ec7",
+          "file": "workflows/reception/patient-registration/registration-validation.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S002-TC001: required registration fields @functional @regression",
+          "ok": true,
+          "tags": [
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0f051018a8f64e446bc9-dcb02146a1dc77acee03",
+          "file": "workflows/reception/patient-registration/registration-validation.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S002-TC001: required registration fields @functional @regression",
+          "ok": true,
+          "tags": [
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chrome",
+              "projectName": "mobile-chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0f051018a8f64e446bc9-5b576f901ba01596a082",
+          "file": "workflows/reception/patient-registration/registration-validation.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S002-TC001: required registration fields @functional @regression",
+          "ok": true,
+          "tags": [
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-safari",
+              "projectName": "mobile-safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0f051018a8f64e446bc9-00b1f9cc6b56a733c51d",
+          "file": "workflows/reception/patient-registration/registration-validation.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "ESS-REC-REG-S002-TC001: required registration fields @functional @regression",
+          "ok": true,
+          "tags": [
+            "functional",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet",
+              "projectName": "tablet",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0f051018a8f64e446bc9-53adc7e54a2d2d121e58",
+          "file": "workflows/reception/patient-registration/registration-validation.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-14T12:07:54.138Z",
+    "duration": 509.97100000000046,
+    "expected": 0,
+    "skipped": 48,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

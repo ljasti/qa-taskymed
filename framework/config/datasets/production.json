@@ -1,0 +1,21 @@
+{
+  "environment": "production",
+  "datasetId": "production-read-only",
+  "available": false,
+  "tenantId": "<approved-production-tenant-id>",
+  "facilityId": "<approved-production-facility-id>",
+  "syntheticOnly": true,
+  "licenseFixture": "<no-production-write-fixture>",
+  "licenseProfile": "essential",
+  "workflows": [],
+  "expectedResults": [
+    "Read-only monitoring only.",
+    "No synthetic record creation or cleanup is permitted."
+  ],
+  "creationStrategy": "None; production has no default write dataset.",
+  "cleanup": {
+    "owner": "none",
+    "policy": "dry-run",
+    "restrictions": "No production record creation or deletion."
+  }
+}

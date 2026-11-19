@@ -1,0 +1,95 @@
+# File: framework/catalog/catalog.yaml
+# Purpose: Single source of truth for Essential workflows, scenarios, test cases and suite membership.
+# Maintainer: Lakshmikiran J. | Project: TaskyMed QA
+# Origin: Manually maintained; parsed by scripts/verify.ts catalog.
+# Usage: npm run catalog:validate. Edit manually when approved coverage changes.
+# IDs are stable; automated means code exists, not that it passed. validate-catalog.ts checks references.
+# Field guide: id=stable identifier, workflowId/scenarioId=parent, status=state, tags/suites=selection.
+product: TaskyMed Health OS
+plan: Essential
+workflows:
+  - id: ESS-REC-REG
+    name: Patient Registration
+    workspace: reception
+    entitlement: clinical_core
+    authorizedRoles: [reception]
+    risk: high
+    priority: P0
+    applicableEnvironments: [local, dev, qa, poc, uat]
+    status: discovered
+  - id: ESS-PHY-QUEUE
+    name: Physician Queue
+    workspace: physician
+    entitlement: clinical_core
+    authorizedRoles: [physician]
+    risk: high
+    priority: P0
+    applicableEnvironments: [local, dev, qa, poc, uat]
+    status: discovered
+  - id: ESS-LIC-SEAT
+    name: User Seat Allocation
+    workspace: licensing
+    entitlement: license
+    authorizedRoles: [customer_admin]
+    risk: critical
+    priority: P0
+    applicableEnvironments: [local, dev, qa]
+    status: blocked-essential-fixture
+scenarios:
+  - id: ESS-REC-REG-S001
+    workflowId: ESS-REC-REG
+    description: Valid synthetic registration accepts required fields
+    classification: positive
+    risk: high
+    suites: [smoke, functional, regression]
+  - id: ESS-REC-REG-S002
+    workflowId: ESS-REC-REG
+    description: Registration validates missing required fields
+    classification: negative
+    risk: high
+    suites: [functional, regression]
+  - id: ESS-PHY-QUEUE-S001
+    workflowId: ESS-PHY-QUEUE
+    description: Authorized physician can view the queue
+    classification: positive
+    risk: high
+    suites: [smoke, e2e, regression]
+  - id: ESS-LIC-SEAT-S001
+    workflowId: ESS-LIC-SEAT
+    description: Essential seat ceiling is enforced
+    classification: boundary
+    risk: critical
+    suites: [licensing, security, regression]
+testCases:
+  - id: ESS-REC-REG-S001-TC001
+    scenarioId: ESS-REC-REG-S001
+    automatedFile: tests/reception/registration-positive.spec.ts
+    environments: [local, dev, qa]
+    status: automated
+  - id: ESS-REC-REG-S002-TC001
+    scenarioId: ESS-REC-REG-S002
+    automatedFile: tests/reception/registration-validation.spec.ts
+    environments: [local, dev, qa, poc, uat]
+    status: automated
+  - id: ESS-PHY-QUEUE-S001-TC001
+    scenarioId: ESS-PHY-QUEUE-S001
+    automatedFile: tests/physician/queue-visibility.spec.ts
+    environments: [local, dev, qa, poc, uat]
+    status: automated
+  - id: ESS-LIC-SEAT-S001-TC001
+    scenarioId: ESS-LIC-SEAT-S001
+    automatedFile: tests/licensing.spec.ts
+    environments: [local, dev, qa]
+    status: blocked
+suiteMapping:
+  smoke: [ESS-REC-REG-S001-TC001, ESS-PHY-QUEUE-S001-TC001]
+  functional: [ESS-REC-REG-S001-TC001, ESS-REC-REG-S002-TC001]
+  regression:
+    [
+      ESS-REC-REG-S001-TC001,
+      ESS-REC-REG-S002-TC001,
+      ESS-PHY-QUEUE-S001-TC001,
+      ESS-LIC-SEAT-S001-TC001,
+    ]
+  licensing: [ESS-LIC-SEAT-S001-TC001]
+  security: [ESS-LIC-SEAT-S001-TC001]

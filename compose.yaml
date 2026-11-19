@@ -1,0 +1,32 @@
+# File: compose.yaml
+# Purpose: Runs the QA container and preserves Playwright reports on the host.
+# Maintainer: Lakshmikiran J. | Project: TaskyMed QA
+# Origin: Manually maintained; no generation command.
+# Run: docker compose config or docker compose run --rm qa npm run test:smoke. Edit manually for container policy.
+# It reaches a host-run app through host.docker.internal and does not start TaskyMed services.
+services:
+  qa:
+    build: .
+    working_dir: /work
+    env_file:
+      - path: ${QA_ENV_FILE:-.env}
+        required: false
+    environment:
+      QA_UI_BASE_URL: ${QA_UI_BASE_URL:?Set QA_UI_BASE_URL explicitly for the selected environment}
+      QA_API_BASE_URL: ${QA_API_BASE_URL:?Set QA_API_BASE_URL explicitly for the selected environment}
+      QA_ENV: ${QA_ENV:?Set QA_ENV explicitly}
+      QA_TENANT_ID: ${QA_TENANT_ID:?Set QA_TENANT_ID explicitly}
+      QA_FACILITY_ID: ${QA_FACILITY_ID:?Set QA_FACILITY_ID explicitly}
+      QA_EXPECTED_APP_ID: ${QA_EXPECTED_APP_ID:?Set QA_EXPECTED_APP_ID explicitly}
+      QA_EXPECTED_ENVIRONMENT: ${QA_EXPECTED_ENVIRONMENT:?Set QA_EXPECTED_ENVIRONMENT explicitly}
+      QA_CREDENTIAL_SCOPE: ${QA_CREDENTIAL_SCOPE:?Set QA_CREDENTIAL_SCOPE explicitly}
+      QA_DATASET_ID: ${QA_DATASET_ID:?Set QA_DATASET_ID explicitly}
+      QA_LICENSE_PROFILE: ${QA_LICENSE_PROFILE:?Set QA_LICENSE_PROFILE explicitly}
+      QA_ALLOWED_SUITES: ${QA_ALLOWED_SUITES:?Set QA_ALLOWED_SUITES explicitly}
+      QA_CLEANUP_POLICY: ${QA_CLEANUP_POLICY:?Set QA_CLEANUP_POLICY explicitly}
+      QA_REPORT_NAMESPACE: ${QA_REPORT_NAMESPACE:?Set QA_REPORT_NAMESPACE explicitly}
+    extra_hosts: ['host.docker.internal:host-gateway']
+    volumes:
+      - ./test-results:/work/test-results
+      - ./playwright-report:/work/playwright-report
+    shm_size: 1gb

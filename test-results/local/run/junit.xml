@@ -1,0 +1,26 @@
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="35.598909">
+<testsuite name="response-time.spec.ts" timestamp="2026-11-14T16:25:29.615Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.045" errors="0">
+<testcase name="ESS-PERF-001: summarizes controlled response-time samples @performance @response-time" classname="response-time.spec.ts" time="0.045">
+</testcase>
+</testsuite>
+<testsuite name="response-time.spec.ts" timestamp="2026-11-14T16:25:29.615Z" hostname="firefox" tests="1" failures="0" skipped="0" time="0.062" errors="0">
+<testcase name="ESS-PERF-001: summarizes controlled response-time samples @performance @response-time" classname="response-time.spec.ts" time="0.062">
+</testcase>
+</testsuite>
+<testsuite name="response-time.spec.ts" timestamp="2026-11-14T16:25:29.615Z" hostname="webkit" tests="1" failures="0" skipped="0" time="0.082" errors="0">
+<testcase name="ESS-PERF-001: summarizes controlled response-time samples @performance @response-time" classname="response-time.spec.ts" time="0.082">
+</testcase>
+</testsuite>
+<testsuite name="response-time.spec.ts" timestamp="2026-11-14T16:25:29.615Z" hostname="mobile-chrome" tests="1" failures="0" skipped="0" time="0.062" errors="0">
+<testcase name="ESS-PERF-001: summarizes controlled response-time samples @performance @response-time" classname="response-time.spec.ts" time="0.062">
+</testcase>
+</testsuite>
+<testsuite name="response-time.spec.ts" timestamp="2026-11-14T16:25:29.615Z" hostname="mobile-safari" tests="1" failures="0" skipped="0" time="0.053" errors="0">
+<testcase name="ESS-PERF-001: summarizes controlled response-time samples @performance @response-time" classname="response-time.spec.ts" time="0.053">
+</testcase>
+</testsuite>
+<testsuite name="response-time.spec.ts" timestamp="2026-11-14T16:25:29.615Z" hostname="tablet" tests="1" failures="0" skipped="0" time="0.073" errors="0">
+<testcase name="ESS-PERF-001: summarizes controlled response-time samples @performance @response-time" classname="response-time.spec.ts" time="0.073">
+</testcase>
+</testsuite>
+</testsuites>
